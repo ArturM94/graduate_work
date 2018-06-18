@@ -46,10 +46,6 @@ class Diffusion:
         # print(stability, h)
 
     # Заполнение сетки нулевыми значениями
-    # T = [[0 for j in range(size_grid)] * size_grid for i in range(size_grid)]
-    # for i in range(size_grid):
-    #     for j in range(size_grid):
-    #         T[i][j] = 0
     T = np.zeros((size_grid, size_grid), dtype=float)
     new_T = np.zeros((size_grid, size_grid), dtype=float)
 
