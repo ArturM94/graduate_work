@@ -45,7 +45,7 @@ class Diffusion:
         h += 0.0005
         # print(stability, h)
 
-    # Заполнение сеькт нулевыми значениями
+    # Заполнение сетки нулевыми значениями
     # T = [[0 for j in range(size_grid)] * size_grid for i in range(size_grid)]
     # for i in range(size_grid):
     #     for j in range(size_grid):
